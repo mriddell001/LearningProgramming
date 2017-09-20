@@ -3,3 +3,5 @@ Add and commit this and commit it to github. !
 //<3
 
 //this is being edited dirrectly from the github.com text editor for test reasons.
+
+//Sucessfully pulled now testing .gitignore
