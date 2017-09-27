@@ -24,7 +24,38 @@ Sample Output:
 using namespace std;
 
 
-int main() {
-    /* Enter your code here. Read input from CIN. Print output to COUT */   
-    return 0;
+int main()
+ {
+int a,b,c = 0;
+int sumOfabc =0;
+bool checkAwnser = false;
+char yesOrNo = 'n';
+    /* Enter your code here. Read input from CIN. Print output to COUT */
+
+do
+{
+  cout <<"Please enter 3 space-separated intergers: "<<  std::endl;
+    cin >> a >> b >> c ;
+      cout <<"\n Are you sure you want too use "<< a <<", "<< b << " and "<< c <<" ?(y/n)";
+        cin >> yesOrNo;
+
+
+if (yesOrNo == 'y' || yesOrNo == 'Y')
+{
+  checkAwnser = false;
+    sumOfabc = a + b + c;
+      cout <<" \n The sum of those numbers is: "<< sumOfabc <<"\n\n";
+}
+
+
+else
+{
+  cout <<"\n   you said that the numbers where incorect or something went wrong, please start over.";
+    checkAwnser = true;
+      cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";// so getho lol.
+}
+
+}while (checkAwnser);
+
+  return 0;
 }
